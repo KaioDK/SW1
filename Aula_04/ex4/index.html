@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - formulários em php</title>
+</head>
+<body>
+    <h1>formulários - login </h1>
+    <form action="processa2.php" method="POST">
+       
+        <p>Digite seu nome:  <input type="text" id="quantity" name="cxnome" required>
+        <p>Digite seu e-mail : <input type="email" id="quantity" name="cxemail" required>
+        <p>Digite sua data de nascimento : <input type="date" id="quantity" name="cxdata" required>
+       
+            <select name="cartao" required>
+            <option value="Visa">Visa</option>
+            <option value="American Express">American Express</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="Elo">Elo</option>
+            <option value="Hipercard">HiperCard</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
