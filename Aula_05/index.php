@@ -33,7 +33,7 @@
             </div>
         
 
-            <input type="submit" class="btn btn-primary btn-block mb-4" value="Sign in">
+            <input type="submit" class="btn btn-primary btn-block mb-4" value="Entrar">
 
         </form>
     </div>
